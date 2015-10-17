@@ -4,4 +4,4 @@ This directory contains complete example of code that illustrates how to use the
 
 When you run the app, you should see the following:
 
-![image](../sample-pyramid.svg)
+![image](../sample-pyramid.png)

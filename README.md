@@ -2,7 +2,7 @@
 
 Pyramid.js is a Javascript library that leverages the awesome D3.js library to build pyramids.
 
-![image](sample-pyramid.svg)
+![image](sample-pyramid.png)
 
 ## Installation
 
