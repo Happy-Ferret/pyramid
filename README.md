@@ -2,11 +2,31 @@
 
 Pyramid.js is a Javascript library that leverages the awesome D3.js library to build pyramids.
 
-## Usage
+## Installation
 
-All you have to do is insert the Pyramid.js file into your app. Just make sure it is loaded _after_ D3.js and _before_ any code that relies upon the Pyramid.js functionality.
+Copy the pyramid.js file into your app directory. To keep things organized, I'd suggest copying the file into a `js/lib` directory and linking from there. Just make sure it is loaded into the browser _after_ D3.js and _before_ any code that relies upon the Pyramid.js functionality.
 
-Using Pyramid.js is a 2-step process. Create a pyramid object and render it. Here's how:
+```{html}
+<head>
+	<title>Your Awesome App</title>
+	<link rel="stylesheet" href="css/styles.css" />
+	<script type="text/javascript" src="js/lib/d3.js"></script>
+
+	<!-- Add Pyramid.js here! -->
+	<script type="text/javascript" src="js/lib/pyramid.js"></script>
+
+	<script type="text/javascript" src="js/app.js"></script>
+</head>
+```
+
+## Using Pyramid.js
+
+Using Pyramid.js is a 2-step process:
+
+1. Create a pyramid object
+2. Render it.
+
+Here's how to do it
 
 ### Creating a pyramid
 
@@ -44,7 +64,6 @@ By default, pyramids created with Pyramid.js will auto-fit themselves into their
 
 ```{javascript}
 var pyramid = new Pyramid(["A", "B", "C"], "parentId", "className", true);
-
 ```
 
 You can also set the autofitting behavior by passing `true` into `pyramid.autoFit()` before rendering your pyramid.
