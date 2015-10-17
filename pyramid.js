@@ -109,6 +109,15 @@ Pyramid.prototype.setRelativeWidth = function(ratio) {
 };
 
 /**
+ * Sets the autofit behavior.
+ * @param  {boolean} autoFit Whether to auto-fit the pyramid into its parent container
+ * @return {void}
+ */
+Pyramid.prototype.autoFit = function(autoFit) {
+	this.autoFit = autoFit;
+};
+
+/**
  * Returns the baseToHeightRatio based on the parent setDimensions
  * @return {number} Ratio of base to height that fits the container
  */
