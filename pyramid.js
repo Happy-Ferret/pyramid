@@ -9,6 +9,8 @@
  * @param {array} data             Array of strings in the top down order
  * @param {string} parentContainer CSS selector for the parent container
  * @param {string} className        Name of the class representing the pyramid SVG
+ * @param {string} autoFit        Whether the pyramid should make a best effort fit in the parent container
+ * @param {string} colorScale        D3 color scale to apply to the pyramid
  */
 function Pyramid(data, parentContainer, className, autoFit, colorScale) {
 
