@@ -2,6 +2,8 @@
 
 Pyramid.js is a Javascript library that leverages the awesome D3.js library to build pyramids.
 
+![image](sample-pyramid.svg)
+
 ## Installation
 
 Copy the pyramid.js file into your app directory. To keep things organized, I'd suggest copying the file into a `js/lib` directory and linking from there. Just make sure it is loaded into the browser _after_ D3.js and _before_ any code that relies upon the Pyramid.js functionality.
@@ -116,6 +118,7 @@ Margin values for the `top`, `bottom`, `left`, and `right` attributes are suppor
 ### Sample App
 
 The sample application illustrates the library in action. Go ahead and check out the [Sample Application](sample).
+
 
 
 
