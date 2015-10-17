@@ -18,8 +18,6 @@ function Pyramid(data, parentContainer, className, autoFit, colorScale) {
 
 	if (!parentContainer) console.error("A parent element has not been specified!");
 
-	console.log();
-
 	// store a reference to the data
 	this.data = data;
 
